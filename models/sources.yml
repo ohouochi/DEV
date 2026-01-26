@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: sample_schema
+    schema: sample_schema
+    tables:
+      - name: customers
+      - name: orders
+      - name: products

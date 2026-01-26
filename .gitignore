@@ -1,0 +1,8 @@
+
+target/
+dbt_packages/
+logs/
+.dbt/
+
+# Profiles (contains credentials)
+profiles.yml

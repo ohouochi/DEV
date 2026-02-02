@@ -28,12 +28,12 @@ Access Superset at: http://localhost:8088
    - **Port**: 5432
    - **Database**: dvdrental
    - **Username**: dbt_user
-   - **Password**: [your password]
+   - **Password**: (empty)
    - **Display Name**: DVD Rental Database
 
 Or use this SQLAlchemy URI:
 ```
-postgresql://dbt_user:[password]@172.24.112.138:5432/dvdrental
+postgresql://dbt_user:@172.24.112.138:5432/dvdrental
 ```
 
 ### 3. Create Datasets
